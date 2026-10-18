@@ -400,6 +400,9 @@ body.cover-active .deck-controls,body.cover-active #notes{display:none}.page-1 f
 
 /* Center each chapter label + title as one intrinsic text block. */
 .part-question .standalone-title-field{top:50%;bottom:auto;height:auto;transform:translateY(-50%);flex-direction:column;gap:32px}.part-question .part-label{position:static;inset:auto;text-align:center;line-height:1.5}.part-question .standalone-title-field h2{flex:none;text-align:center}.part-question .agent-icons{top:160px}
+
+/* Cover uses the existing navigation, with a paper backing for contrast. */
+body.cover-active .progress-navigation{display:grid;background:var(--paper);outline:8px solid var(--paper);border-radius:4px}
 </style><!-- Embedded open-source fonts: Spectral and Red Hat Mono.
 Copyright 2017 The Spectral Project Authors (https://github.com/productiontype/Spectral)
 
